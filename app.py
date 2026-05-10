@@ -5,7 +5,7 @@ from openai import OpenAI
 from dotenv import dotenv_values
 from pycaret.clustering import setup, create_model,save_model,assign_model, predict_model
 import plotly.express as px
-from openai import OpenAI
+#from openai import OpenAI
 from qdrant_client import QdrantClient
 
 env=dotenv_values(".env")
